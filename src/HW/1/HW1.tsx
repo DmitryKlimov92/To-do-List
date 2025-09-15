@@ -1,4 +1,5 @@
 import {UserList} from './UserList';
+import {UserType} from "./UserList";
 
 export const HW1 = () => {
 
@@ -34,7 +35,7 @@ export const HW1 = () => {
 
 	return (
 		<div id={'hw01'}>
-			{/*<UserList users={'НАЗВАНИЕ МАССИВА, КОТОРЫЙ МЫ ПЕРЕДАЕМ'} />*/}
+			{<UserList users={users} />}
 		</div>
 	);
 };

@@ -1,5 +1,5 @@
 import {UserList} from './UserList';
-import {UserType} from "./UserList";
+
 
 export const HW1 = () => {
 
